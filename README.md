@@ -30,3 +30,8 @@ Bu projede üç ana Python dosyası bulunmaktadır:
 3. **Görsel Zenginleştirme ve Çoğaltma**  
    Her görsel üzerinde döndürme, parlaklık ve kontrast ayarları gibi veri çoklama işlemleri yapılarak yeni varyantlar oluşturulur. Bu, makine öğrenmesi projeleri için daha geniş bir veri kümesi elde etmeye yardımcı olur.
 
+![Veri kazımanın yapılacağı URL'ye giriş](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(24).png) 
+![Kitap içeriğinin farklı URL'de açılması](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(27).png)
+![Veri arttırma sonucu klasörden bir kesit](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(26).png)
+![Tüm işlemler sonucunda açılan klasörler](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(23).png)
+
