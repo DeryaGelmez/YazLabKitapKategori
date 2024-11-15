@@ -41,3 +41,4 @@ Bu projede üç ana Python dosyası bulunmaktadır:
 ![Veri arttırma sonucu klasörden bir kesit](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(26).png)
 ![Tüm işlemler sonucunda açılan klasörler](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(23).png)
 
+---
