@@ -10,7 +10,7 @@ categories = [
     "Polisiye"
 ]
 
-base_path = "C:\\Users\\derya\\PycharmProjects\\YazLab\\İndirilenler"
+base_path = "C:\\Users\\derya\\Desktop\\YazLab\\İndirilenler"
 
 def brightness_contrast(img):
     brightness_factor = random.uniform(0.5, 1.5)

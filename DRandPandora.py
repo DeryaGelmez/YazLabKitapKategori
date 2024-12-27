@@ -1,13 +1,18 @@
-import os
-import requests
-from io import BytesIO
-from PIL import Image
-from selenium import webdriver
-from selenium.webdriver.common.by import By
-from selenium.webdriver.support.ui import WebDriverWait
-from selenium.webdriver.support import expected_conditions as EC
-from selenium.common.exceptions import TimeoutException, NoSuchElementException
+#Gereken kütüphanelerin içe aktarımı
+import os #Dosya ve klosör işlemlerini yürütmek için
+import requests #Web istekleri göndermek ve yanıt almak için
+from io import BytesIO #İnternetten indirdiğimiz görselleri bellekte tutmak için
+from PIL import Image #Görselleri açıp işlemek için (Boyutlandırma, döndürme, ışık ayarı vs. için) (Pillow kütüphanesi)
+#Selenium kütüphanesinin farklı bileşenlerini içe aktarma
+from selenium import webdriver #Web sayfalarına doğrudan erişim için
+from selenium.webdriver.common.by import By #Web kazıma yaparken Selenium'da HTML elementini seçerken hangi kriterin kullanılacağını By sınıfı ile belirleriz. Ör; By.CSS_SELECTOR/By.ID)
+from selenium.webdriver.support.ui import WebDriverWait #Sayfada istenen içeriğin yüklenmesi için bekleme süresini belirlerken kullanıyoruz.
+from selenium.webdriver.support import expected_conditions as EC #expected_conditions modülü EC olarak içe aktarılır. Bu modül ile sayfanın yüklenmesi, bir öğenin görünmesi veya tıklanabilir olması gibi durumlar kontrol edilir. (Koşullu bekleme tanımlama)
+from selenium.common.exceptions import TimeoutException, NoSuchElementException #Selenium kütüphanesinin belirli hata türlerini içe aktarmak için
+#TimeoutException: Belirtilen süre içinde öğe yüklenmezse tetiklenir.
+#NoSuchElementException: Belirtilen HTML öğesi sayfada bulunamazsa tetiklenir.
 
+# Web sürücüsünü başlatma ayarları
 options = webdriver.ChromeOptions()
 options.add_argument('--start-maximized')
 options.add_experimental_option('detach', True)
@@ -16,18 +21,21 @@ driver = webdriver.Chrome(options=options)
 main_folder = os.path.join(os.getcwd(), "İndirilenler")
 os.makedirs(main_folder, exist_ok=True)
 
-
+#Görsel URL'lerini kaydetmek için bir fonksiyon
 def save_url(url, folder, max_image=6000):
     page_no = 1
+    max_page=4
     image_urls = []
     downloaded_count = 0
 
-    while downloaded_count < max_image:
+    while page_no<max_page and downloaded_count < max_image:
         driver.get(f"{url}?Page={page_no}&ShowNotForSale=false")
 
         try:
             books = WebDriverWait(driver, 30).until(EC.presence_of_all_elements_located(
                 (By.CSS_SELECTOR, 'div.prd-main-wrapper')))
+
+
 
             for book in books:
                 book_link = book.find_element(By.CSS_SELECTOR, 'a').get_attribute('href')
