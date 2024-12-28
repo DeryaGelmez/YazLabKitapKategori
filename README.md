@@ -93,5 +93,6 @@ Bu projede üç ana Python dosyası bulunmaktadır:
 
 ## Projede Oluşturulan Veri Setlerine Erişim
 [Data Setlerini Görüntüle](https://drive.google.com/drive/folders/1O9yWV-ZxrSfPuyDPSKedRyI7kGMchwL4?usp=drive_link)
+[Colab Verilerini Görüntüle](https://drive.google.com/drive/folders/1eOJyz8F48Ggs20mL9bRbRBxzcCB3iOy-)
 
 ----
