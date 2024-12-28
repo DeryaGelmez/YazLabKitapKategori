@@ -94,9 +94,4 @@ Bu projede üç ana Python dosyası bulunmaktadır:
 ## Projede Oluşturulan Veri Setlerine Erişim
 [Data Setlerini Görüntüle](https://drive.google.com/drive/folders/1O9yWV-ZxrSfPuyDPSKedRyI7kGMchwL4?usp=drive_link)
 
-![Veri kazımanın yapılacağı URL'ye giriş](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(24).png) 
-![Kitap içeriğinin farklı URL'de açılması](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(27).png)
-![Veri arttırma sonucu klasörden bir kesit](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(26).png)
-![Tüm işlemler sonucunda açılan klasörler](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Screenshot%20(23).png)
-
 ----
