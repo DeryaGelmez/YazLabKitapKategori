@@ -92,7 +92,8 @@ Bu projede üç ana Python dosyası bulunmaktadır:
 [Proje Raporunu Görüntüle](https://github.com/DeryaGelmez/YazLabKitapKategori/blob/main/Rapor.pdf)
 
 ## Projede Oluşturulan Veri Setlerine Erişim
-[Data Setlerini Görüntüle](https://drive.google.com/drive/folders/1O9yWV-ZxrSfPuyDPSKedRyI7kGMchwL4?usp=drive_link)
+[Data Setlerini Görüntüle](https://drive.google.com/drive/folders/1O9yWV-ZxrSfPuyDPSKedRyI7kGMchwL4?usp=drive_link)  
+
 [Colab Verilerini Görüntüle](https://drive.google.com/drive/folders/1eOJyz8F48Ggs20mL9bRbRBxzcCB3iOy-)
 
 ----
