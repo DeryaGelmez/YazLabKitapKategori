@@ -27,7 +27,6 @@ Kitap kapaklarını, kişisel gelişim, çocuk kitapları, tarih, çizgi roman v
 ### 3. **Veri Artırma**
 - **Parlaklık ve Kontrast Değişikliği**: Görsellerin parlaklık ve kontrast değerleri rastgele değiştirilmiştir.
 - **Döndürme İşlemleri**: Görseller, sabit ve rastgele açılarla döndürülerek farklı varyantlar oluşturulmuştur.
-- **Kullanılan Kütüphaneler**: `Pillow` ve `random`.
 
 ### 4. **Model Eğitimi**
 - **Kullanılan Modeller**:
